@@ -19,4 +19,4 @@ run:
     - -exc
     - |
       export GOPATH=$PWD/resource-web-app
-      go build -o built-project/library-go-app github.com/brooklyyounce/simple-go-web-app
+      go build -v -x built-project/library-go-app vendor/github.com/brooklyyounce/simple-go-web-app
