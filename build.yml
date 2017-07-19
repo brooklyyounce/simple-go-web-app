@@ -20,4 +20,4 @@ run:
     - |
       cd resource-web-app
       export GOPATH=$PWD/resource-web-app
-      go build -v -x
+      go build -v -x main.go
